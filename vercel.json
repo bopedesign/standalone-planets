@@ -10,5 +10,16 @@
         { "key": "Referrer-Policy", "value": "no-referrer-when-downgrade" }
       ]
     }
+  ],
+  "rewrites": [
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/blog", "destination": "/blog.html" },
+    { "source": "/digital-marketing-and-seo", "destination": "/digital-marketing-and-seo.html" },
+    { "source": "/get-a-quote", "destination": "/get-a-quote.html" },
+    { "source": "/hosting-and-domains", "destination": "/hosting-and-domains.html" },
+    { "source": "/portfolio", "destination": "/portfolio.html" },
+    { "source": "/tech-support-and-security", "destination": "/tech-support-and-security.html" },
+    { "source": "/website-accessibility", "destination": "/website-accessibility.html" },
+    { "source": "/website-design-and-development", "destination": "/website-design-and-development.html" }
   ]
 }
