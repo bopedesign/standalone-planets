@@ -12,14 +12,27 @@
     }
   ],
   "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/Home", "destination": "/index.html" },
     { "source": "/about", "destination": "/about.html" },
+    { "source": "/About", "destination": "/about.html" },
     { "source": "/blog", "destination": "/blog.html" },
+    { "source": "/Blog", "destination": "/blog.html" },
     { "source": "/digital-marketing-and-seo", "destination": "/digital-marketing-and-seo.html" },
+    { "source": "/Digital-Marketing-And-SEO", "destination": "/digital-marketing-and-seo.html" },
     { "source": "/get-a-quote", "destination": "/get-a-quote.html" },
+    { "source": "/Get-A-Quote", "destination": "/get-a-quote.html" },
     { "source": "/hosting-and-domains", "destination": "/hosting-and-domains.html" },
+    { "source": "/Hosting-And-Domains", "destination": "/hosting-and-domains.html" },
     { "source": "/portfolio", "destination": "/portfolio.html" },
+    { "source": "/Portfolio", "destination": "/portfolio.html" },
     { "source": "/tech-support-and-security", "destination": "/tech-support-and-security.html" },
+    { "source": "/Tech-Support-And-Security", "destination": "/tech-support-and-security.html" },
     { "source": "/website-accessibility", "destination": "/website-accessibility.html" },
-    { "source": "/website-design-and-development", "destination": "/website-design-and-development.html" }
+    { "source": "/Website-Accessibility", "destination": "/website-accessibility.html" },
+    { "source": "/website-design-and-development", "destination": "/website-design-and-development.html" },
+    { "source": "/Website-Design-And-Development", "destination": "/website-design-and-development.html" },
+    { "source": "/preview", "destination": "/preview.html" },
+    { "source": "/Preview", "destination": "/preview.html" }
   ]
 }
